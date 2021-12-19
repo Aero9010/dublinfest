@@ -1,0 +1,97 @@
+/* font for all the paragraphs */
+p {
+	font-family: 'Tillana', cursive;
+}
+
+/* to hidden the bottom scroll bar */
+dancerspage-body {
+	overflow-x: hidden;
+}
+
+/* "id insta" to give the right color to that icon */
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+/* "id yout" to give the right color to that icon */
+#yout {
+	color: red;
+}
+
+
+#images {
+	height: 300px;
+}
+
+.line {
+	padding: 2.5px;
+}
+
+.leftIcons {
+	position: relative;
+	left: 30px;
+}
+
+.rightIcons {
+	position: static;
+}
+
+/* I choose to make this text bold tomake difference on the visualisation when this text shows up */
+.text {
+	font-family: 'Tillana', cursive;
+	font-weight: bold;
+}
+/* each text have a different "id name" to make sure that all oh them have the right position from user prospective */
+#textOne {
+	position: relative;
+	left: 25px;
+}
+
+#textTwo {
+	position: relative;
+	left: 28px;
+}
+
+#textThree {
+	position: relative;
+	left: 55px;
+}
+
+#textFour {
+	position: relative;
+	left: 10px;
+}
+
+#textFive {
+	position: relative;
+	left: 10px;
+}
+
+#textSix {
+	position: relative;
+	left: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+	
+.textRight {
+	position: relative;
+	top: 50px;
+	right: 15px;
+	padding-left: 50px;
+	
+}
+
+.textLeft {
+	position: relative;
+	top: 100px;
+	left: 20px;
+	
+}
+}
+
+

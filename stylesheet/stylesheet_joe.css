@@ -1,0 +1,60 @@
+
+
+.bg-imgjg{
+	
+	background-image: url("img/concertmalahideB-min.jpg");
+	padding: 250px;
+	position: relative;
+
+}
+
+.text-blockjg{
+ font-family:'Bakbak One', cursive;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ 
+}
+
+.ticket{
+	font-family: 'Bakbak One', cursive;
+}
+
+.venue{
+	font-family: 'Bakbak One', cursive;
+}
+
+.mainact{
+	font-family: 'Bakbak One', cursive;
+}
+
+.img-fluid{
+	float-right: auto;
+	float-left: auto;
+	border: 3px solid black
+}
+
+.aboutpage-dublinfest{
+	padding-top: 10px;
+}
+
+.mapouter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	height: 500px;
+	width: 600px;
+}
+
+.gmap_canvas{
+	overflow: hidden;
+	background: none!important;
+	height: 500px;
+	width: 600px
+	
+}
+
+.location{
+	text-align: center;
+}

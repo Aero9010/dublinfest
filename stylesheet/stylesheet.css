@@ -1,0 +1,365 @@
+https://wireframe.cc/9b1zr8
+https://wireframe.cc/Uo8DtW
+
+https://wireframe.cc/9b1zr8
+https://wireframe.cc/Uo8DtW
+
+/* ALL PAGES *//* ALL PAGES *//* ALL PAGES */
+
+.navbar-nav .nav-fill{
+	position: absolute;
+	float: right;
+	right: 50%
+}
+
+/* HOME PAGE *//* HOME PAGE *//* HOME PAGE */
+.homepage-body{
+	background-image: url("../img/dublin_street_blur.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	background-color: black;
+	overflow: hidden;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+  font-size: 20px;
+}
+
+.home-container{
+	position: relative;
+}
+
+.homepage-anchor-acts{
+	text-decoration: none;
+	color: black;
+}
+
+.homepage-anchor-acts:hover{
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.homepage-anchor-acts:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.homepage-anchor-acts:active{
+	text-decoration: none;
+	color: black;
+}
+
+.homepage-acts{
+	font-size: 25px ;
+	text-align: center;
+	color: black;
+	padding-top: 50px;
+	padding-left: 35%;
+	padding-right: 35%;
+	font-weight: bold;
+	text-shadow: 1px 1px white;
+}
+
+.homepage-tickets{
+	font-size: 25px ;
+	text-align: center;
+	color: black;
+	padding-top: 50px;
+	padding-left: 35%;
+	padding-right: 35%;
+	font-weight: bold;
+	text-shadow: 1px 1px white;
+}
+
+.tagline{
+	text-align: center;
+	font-size: 100px;
+	color: black;
+	font-weight: bold;
+	padding-top: 60px;
+	text-shadow: 2px 2px white;
+	
+}
+
+.after-tagline{
+	text-align: center;
+	font-size: 60px;
+	color: black;
+	font-weight: bold;
+	text-shadow: 2px 2px white;
+}
+
+/* ACTS PAGE *//* ACTS PAGE *//* ACTS PAGE */
+
+.actspage-body{
+	background-color: black;
+	overflow-x: hidden;
+}
+
+.row.actspage{
+	color: white;
+}
+
+.headline{
+	text-align: center;
+	border: 3px solid white;
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+.headlines{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.acts-col{
+	padding-top: 30px;
+	color: black;
+	text-align: center;
+}
+
+.acts-game{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.anchor-acts-game{
+	text-decoration: none;
+	color: red;
+}
+
+.anchor-acts-game:hover{
+	text-decoration: none;
+	color: black;
+	text-shadow: 1px 1px white;
+}
+
+.anchor-acts-game:visited{
+	text-decoration: none;
+	color: white;
+}
+
+.anchor-acts-game:active{
+	text-decoration: none;
+	color: white;
+}
+
+/* About Page *//* About Page *//* About Page */
+
+.bg-imgjg{
+	
+	background-image: url("img/concertmalahideB-min.jpg");
+	padding: 250px;
+	position: relative;
+
+}
+
+.text-blockjg{
+ font-family:'Bakbak One', cursive;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ 
+}
+
+.ticket{
+	font-family: 'Bakbak One', cursive;
+}
+
+.venue{
+	font-family: 'Bakbak One', cursive;
+}
+
+.mainact{
+	font-family: 'Bakbak One', cursive;
+}
+
+.img-fluid{
+	float-right: auto;
+	float-left: auto;
+	border: 3px solid black
+}
+
+.aboutpage-dublinfest{
+	padding-top: 10px;
+}
+
+.mapouter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	height: 500px;
+	width: 600px;
+}
+
+.gmap_canvas{
+	overflow: hidden;
+	background: none!important;
+	height: 500px;
+	width: 600px
+	
+}
+
+.location{
+	text-align: center;
+}
+
+/* Game Page *//* Game Page *//* Game Page */
+
+.gamepage-body{
+	background-image: url("../img/dublin_street_blur.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	background-color: black;
+	overflow: hidden;
+}
+
+.div-button{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.gamepage-welcome{
+	text-align: center;
+	font-size: 45px;
+	padding-top: 400px;
+	color: black;
+	text-shadow: 1px 1px white;
+}
+
+#winner{
+	color: black;
+	text-shadow: 1px 1px white;
+	text-align: center;
+	font-size: 48px;
+	padding-top: 140px;
+}
+
+#results{
+	color: black;
+	text-shadow: 1px 1px white;
+	text-align: center;
+	font-size: 48px;
+	padding-top: 140px;
+}
+
+#results2{
+	color: black;
+	text-shadow: 1px 1px white;
+	text-align: center;
+	font-size: 48px;
+	padding-top: 140px;
+}
+
+/* Dancer Page *//* Dancer Page *//* Dancer Page */
+
+/* font for all the paragraphs */
+.dancer-description{
+	font-family: 'Tillana', cursive;
+}
+
+/* to hidden the bottom scroll bar */
+dancerspage-body {
+	overflow-x: hidden;
+}
+
+/* "id insta" to give the right color to that icon */
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+/* "id yout" to give the right color to that icon */
+#yout {
+	color: red;
+}
+
+
+#images {
+	height: 300px;
+}
+
+.line {
+	padding: 2.5px;
+}
+
+.leftIcons {
+	position: relative;
+	left: 30px;
+}
+
+.rightIcons {
+	position: static;
+}
+
+/* I choose to make this text bold tomake difference on the visualisation when this text shows up */
+.text {
+	font-family: 'Tillana', cursive;
+	font-weight: bold;
+}
+/* each text have a different "id name" to make sure that all oh them have the right position from user prospective */
+#textOne {
+	position: relative;
+	left: 25px;
+}
+
+#textTwo {
+	position: relative;
+	left: 28px;
+}
+
+#textThree {
+	position: relative;
+	left: 55px;
+}
+
+#textFour {
+	position: relative;
+	left: 10px;
+}
+
+#textFive {
+	position: relative;
+	left: 10px;
+}
+
+#textSix {
+	position: relative;
+	left: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+	
+.textRight {
+	position: relative;
+	top: 50px;
+	right: 15px;
+	padding-left: 50px;
+	
+}
+
+.textLeft {
+	position: relative;
+	top: 100px;
+	left: 20px;
+	
+}
+}
+
+/* Contat Page *//* Contat Page *//* Contat Page */

@@ -1,0 +1,273 @@
+<!-- x20235305 - Paolo Jr. Costarelli -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    
+	<head>
+		<title> DUBLINFEST Dancers </title>
+		
+		<!-- That connect directly with my CSS file-->
+		<link rel="stylesheet" href="../stylesheet/stylesheet.css">
+		
+		<!-- To have a good -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Booostrap link to make it responsive-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		
+		<!-- That connect directly with my JS file-->
+		<script src="../javascript/external.js"></script>	
+
+		<!-- Google Fonts links-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Fruktur&family=Sarabun:ital,wght@1,200&family=Signika+Negative:wght@300&family=Slabo+27px&family=Tillana&display=swap" rel="stylesheet">
+		
+		<!-- Icons script to make sure the icons appear on the web page-->
+		<script src="https://kit.fontawesome.com/61175ed160.js" crossorigin="anonymous"></script>
+		
+	</head>
+	
+	<body class="dancerspage-body">
+		
+			<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-black">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../img/dublin_fest_small.jpg" alt="DublinFest Logo">
+			</a>
+				<button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						    <li class="nav-item active">
+								<a class="nav-link text-white" href="acts.html">ACTS</a>
+						    </li>
+						    <li class="nav-item">
+								<a class="nav-link text-white" href="dancer.html">DANCERS</a>
+						    </li>
+						    <li class="nav-item">
+								<a class="nav-link text-white" href="about.html">ABOUT</a>
+						    </li>
+						    <li class="nav-item">
+								<a class="nav-link text-white" href="contactus.html">CONTACT</a>
+						    </li>
+						</ul>
+					</div>
+			</nav>
+			
+			<br></br>
+			
+			<h6>
+			
+				<div class="row">
+				
+							<!-- I choose sm-2 because I need more space to make sure the icons have enough space to make a line-->
+							<div class="col-sm-2">
+	
+								<!-- I'm split left icons and right icons using the " div class= " to give the the right position on the browser -->
+								<div class="leftIcons">
+							
+									<!-- href that is connect with the right page on each social media for each group, also 2px is the size I chosen for this webpage-->
+									<!-- https://fontawesome.com/ -->
+									<a href="https://www.facebook.com/Jabbawockeez" target="_blank"><i class="fab fa-facebook fa-2x"><i></i></i></a>
+									
+									
+									<a href="https://www.instagram.com/jabbawockeez/" target="_blank"><i class="fa fa-instagram fa-2x" id="insta" ></i></a>
+									
+									
+									<a href="https://www.youtube.com/watch?v=mZg93y13rJo" target="_blank"><i class="fab fa-youtube  fa-2x" id="yout"></i></a>
+									
+								</div>
+							</div>
+							
+							<div class="col-sm-5">
+							
+								<!-- href JS to make sure that when the user click on the image a text will appear-->
+								<!--Here where I found how to show a text when a user click on the images. https://stackoverflow.com/questions/20147442/using-onclick-on-images-to-display-text -->
+								<a href="javascript: changeTextOne(1);">
+									<div class="imgLeft">
+									
+										<img src="../img/jabba.webp" class="img-fluid img-thumbnail mx-auto d-block" alt="imgJabbawockeez" >
+									</div>
+								</a>
+								
+								<!--Test Navbar-->
+								<div class= "text" id="textOne"></div>
+							</div>
+							
+							<div class="col-sm-5">
+								<div class="textRight">
+									<p class="dancer-description"> The Jabbawockeez are a world-famous dance crew who first gained fame in their national television appearance on America’s Got Talent in 2006, before winning the MTV Hip Hop reality series, Randy Jackson Presents America’s Best Dance Crew (ABDC) in March 2008.
+									The most notable group to come out of the MTV reality series, the Jabbawockeez are synonymous with the show and universally recognized as America’s true best dance crew.
+									</p>
+								</div>
+							</div>
+							
+				</div>
+			</h6>
+			<hr class="line">
+			<h6>
+				<div class="row">
+					
+							<div class="col-sm-5">
+								<div class="textLeft">
+									<p class="dancer-description">The Kinjaz in full performance mode. The Kinjaz uniquely combines music and urban-dancing to create original and entertaining forms of story-telling through the group's fusion of theatrics, intricate choreography, and comedy, which is as spell-binding as it is skillful.</p>
+								</div>
+							</div>
+							
+							<div class="col-sm-5">
+								<a href="javascript: changeTextTwo(1);">
+									<div class="imgRight">
+										<img src="../img/kinjaz.jpg" class="img-fluid img-thumbnail mx-auto d-block" alt="imgKinjaz">
+									</div>
+								</a>
+								<div class= "text" id="textTwo"></div>
+							</div>
+							
+							<div class="col-sm-2">
+								<div class="rightIcons">
+									<a href="https://www.facebook.com/kinjaz" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+									
+									<a href="https://www.instagram.com/kinjaz/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x" id="insta" ></i></a>
+								
+									<a href="https://www.youtube.com/user/TheKinjaz/videos" target="_blank"><i class="fab fa-youtube  fa-2x" id="yout"></i></a>
+									
+								</div>
+							</div>
+							
+				</div>
+			</h6>
+			<hr class="line">
+			<h6>
+				<div class="row">
+							<div class="col-sm-2">
+								<div class="leftIcons">
+									<a href="https://www.facebook.com/OfficialLesTwins" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+									
+									<a href="https://www.instagram.com/officiallestwins/" target="_blank"><i class="fa fa-instagram fa-2x" id="insta" ></i></a>
+									
+									<a href="https://www.youtube.com/user/officiallestwins" target="_blank"><i class="fab fa-youtube  fa-2x" id="yout"></i></a>
+									
+								</div>
+							</div>
+							
+							<div class="col-sm-5">
+								<a href="javascript: changeTextThree(1);">
+									<div class="../imgLeft">
+										<img src="../img/twins.jpg" class="img-fluid img-thumbnail mx-auto d-block" alt="imgTwins">
+									</div>
+								</a>
+								<div class= "text" id="textThree"></div>
+							</div>
+							
+							<div class="col-sm-5">
+								<div class="textRight">
+									<p class="dancer-description">Nicknamed Lil Beats and Ca Blaze, Les Twins have danced for everyone from Beyonce to Missy Elliott, even winning World of Dance, the reality dance competition produced by Jennifer Lopez. Now, they travel the world doing workshops and teaching their original choreography.p>
+								</div>
+							</div>
+							
+				</div>
+			</h6>
+			<hr class="line">
+			<h6>
+				<div class="row">
+					
+							<div class="col-sm-5">
+								<div class="textLeft">
+									<p class="dancer-description">The Tropical Gem dance company was founded in May 2000 by Rafael Gonzalez and Fernando Sosa. The team has participated in the biggest World and International Congresses.
+									The choreographies of Tropical Gem amount to more than 50.
+									Winners of the most prestigious salsa group competitions in the world such as Las Vegas Mega Salsa Crew. </p>
+								</div>
+							</div>
+							
+							<div class="col-sm-5">
+								<a href="javascript: changeTextFour(1);">
+									<div class="imgRight">
+										<img src="../img/tropical.jpg" class="img-fluid img-thumbnail mx-auto d-block" alt="imgTropical">
+									</div>
+								</a>
+								<div class= "text" id="textFour"></div>
+							</div>
+							
+							<div class="col-sm-2">
+								<div class="rightIcons">
+									<a href="https://www.facebook.com/tropicalgemdancecompany" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+									
+									<a href="https://www.instagram.com/fernandososa_tropicalgem/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x" id="insta" ></i></a>
+									
+									<a href="https://www.youtube.com/channel/UCLv8gnvDmZ8N3F3NGoQ7HcQ" target="_blank"><i class="fab fa-youtube  fa-2x" id="yout"></i></a>
+									
+								</div>
+							</div>
+							
+				</div>
+			</h6>
+			<hr class="line">
+			<h6>
+				<div class="row">
+							<div class="col-sm-2">
+								<div class="leftIcons">
+									<a href="https://www.facebook.com/theadolfoindacochea" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+									
+									<a href="https://www.instagram.com/adolfoindacochea/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x" id="insta" ></i></a>
+									
+									<a href="https://www.youtube.com/user/aindacochea" target="_blank"><i class="fab fa-youtube  fa-2x" id="yout"></i></a>
+									
+								</div>
+							</div>
+							
+							<div class="col-sm-5">
+								<a href="javascript: changeTextFive(1);">
+									<div class="images">
+										<img src="../img/latin.jpg" class="img-fluid img-thumbnail mx-auto d-block" alt="imgLatin.jpg">
+									</div>
+								</a>
+								<div class= "text" id="textFive"></div>
+							</div>
+							
+							<div class="col-sm-5">
+								<div class="textRight">
+									<p class="dancer-description">Adolfo Indacochea and his Latin Soul Dancer are an explosive and energetic group known worldwide for their smooth and unique style. This unique style combines traditional mambo with elements of jazz/modern, flamenco and ballroom dancing. Its sense of musicality and flow is evident through its choreography and improvisations. </p>
+								</div>
+							</div>
+							
+				</div>
+			</h6>
+			<hr class="line">
+			<h6>
+				<div class="row">
+							<div class="col-sm-5">
+								<div class="textLeft">
+									<p class="dancer-description">Full Project Company is a group born 10 years ago, initially as a duo made up of the two dance masters Luigi Bellomo and Luigi Bianco, who proposed for the first time in Italy and Europe an unusual male salsa couple. With this formation they were twice world champions in pasitos and worked on Costa Crociere ships and in the films 'Street dance 2' and 'The latin dream'. The Caribbean dance world is 60% female and two years ago, convinced that they were offering the market something new, they held a casting to create a group of male-only salsa dancers.</p>
+								</div>
+							</div>
+							
+							<div class="col-sm-5">
+								<a href="javascript: changeTextSix(1);">
+									<div class="imgRight">
+										<img src="../img/full.jpg" class="img-fluid img-thumbnail mx-auto d-block" alt="imgFull">
+									</div>
+								</a>
+								<div class= "text" id="textSix"></div>
+							</div>
+							
+							<div class="col-sm-2">
+								<div class="rightIcons">
+									<a href="https://www.facebook.com/fullproject.page" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+									
+									<a href="https://www.instagram.com/full_project/?hl=en" target="_blank"><i class="fa fa-instagram fa-2x" id="insta" ></i></a>
+									
+									<a href="https://www.youtube.com/channel/UCmqOseuJ69t0SvwrQiVEVaQ" target="_blank"><i class="fab fa-youtube  fa-2x" id="yout"></i></a>
+									
+								</div>
+							</div>
+							
+							
+							
+				</div>
+			</h6>
+		
+	</body>
+</html>
